@@ -1,0 +1,16 @@
+
+*.autosave
+*.slxc
+*.xml
+slprj/_jitprj/jitEngineAccessInfo.mat
+slprj/_jitprj/sSbZMibARVuFSeWpbsyFtTC.l
+slprj/_jitprj/sSbZMibARVuFSeWpbsyFtTC.mat
+slprj/_jitprj/stvL2xHfsISpZfAxHebEgQ.l
+slprj/_jitprj/stvL2xHfsISpZfAxHebEgQ.mat
+slprj/_sfprj/EMLReport/emlReportAccessInfo.mat
+slprj/_sfprj/EMLReport/sSbZMibARVuFSeWpbsyFtTC.mat
+slprj/_sfprj/EMLReport/stvL2xHfsISpZfAxHebEgQ.mat
+slprj/_sfprj/semi_active_suspension_mr_damper_full_vehicle/_self/sfun/info/binfo.mat
+slprj/_sfprj/semi_active_suspension_mr_damper_full_vehicle/amsi_serial.mat
+slprj/sim/varcache/semi_active_suspension_mr_damper_full_vehicle/checksumOfCache.mat
+slprj/sim/varcache/semi_active_suspension_mr_damper_full_vehicle/varInfo.mat
