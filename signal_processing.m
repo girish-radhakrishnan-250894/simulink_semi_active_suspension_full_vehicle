@@ -6,7 +6,7 @@ t = out.t.Data;
 
 %% Signal Processing Parameters
 
-fres = 0.1; % Required Frequency Resolution
+fres = 0.2; % Required Frequency Resolution
 
 fs = 1/0.001; % Samping frequency
 
@@ -27,9 +27,9 @@ weight_ride_comfort_raw =    ([0.5  0.5  1  1  0.1 0.1 0.1 0.1 0.1 0.1]);
 
 weight_ride_comfort_filt = interp1(hz_weight_ride_comfort_raw, weight_ride_comfort_raw, (hz_zs_ddot),"linear");
 
-% figure
-% plot((hz_zs_ddot), (weight_ride_comfort_filt))
-% grid minor
+figure
+loglog((hz_weight_ride_comfort_raw), (weight_ride_comfort_raw))
+grid minor
 
 %% Ride Comfort Index - Calculation & Plotting
 
